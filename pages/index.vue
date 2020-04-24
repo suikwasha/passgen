@@ -82,7 +82,7 @@ export default {
     }
   },
   asyncData(context) {
-    return context.$axios.$get('./services.json').then((res) => {
+    return context.$axios.$get('~static/services.json').then((res) => {
       return {
         options: res
       }
