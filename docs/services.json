@@ -1,0 +1,27 @@
+[
+  {
+    "text": "jetbrains",
+    "value": [
+      { "command": "append", "args": ["jetbrains"] },
+      { "command": "md5", "args": [] },
+      { "command": "append", "args": ["@"] }
+    ]
+  },
+  {
+    "text": "delta airlines",
+    "value": [
+      { "command": "append", "args": ["delta"] },
+      { "command": "md5", "args": [] },
+      { "command": "cut", "args": [0, 17] },
+      { "command": "append", "args":  ["Aa"]}
+    ]
+  },
+  {
+    "text": "conoha",
+    "value": [
+      { "command": "append", "args": ["conoha"] },
+      { "command": "md5", "args": [] },
+      { "command": "cut", "args": [0, 17]}
+    ]
+  }
+]
