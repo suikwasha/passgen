@@ -64,5 +64,8 @@ module.exports = {
   },
   generate: {
     dir: 'docs'
+  },
+  router: {
+    base: "/passgen/" // for ghpages
   }
 }
