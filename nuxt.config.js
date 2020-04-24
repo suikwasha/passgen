@@ -52,7 +52,9 @@ module.exports = {
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    baseURL: process.env.baseURL || "https://suikwasha.github.io/passgen/"
+  },
   /*
    ** Build configuration
    */
