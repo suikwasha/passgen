@@ -3,7 +3,7 @@ import commonConfig from './nuxt.config';
 export default {
   ...commonConfig,
   axios: {
-    baseURL: 'https://suikwasha.github.io/passgen/'
+    baseURL: 'https://suikwasha.github.io/'
   },
   generate: {
     dir: 'docs'
