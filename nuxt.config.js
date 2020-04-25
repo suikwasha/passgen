@@ -53,7 +53,6 @@ module.exports = {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: process.env.baseURL || "https://suikwasha.github.io/passgen/"
   },
   /*
    ** Build configuration
@@ -63,11 +62,5 @@ module.exports = {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  },
-  generate: {
-    dir: 'docs'
-  },
-  router: {
-    base: "/passgen/" // for ghpages
   }
 }
